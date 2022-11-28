@@ -19,6 +19,7 @@
         <a class="nav-link" href="#">Genres</a>
         <a class="nav-link" href="#">Authors</a>
         <a class="nav-link" href="#">Publishers</a>
+         <a class="nav-link" href="#">Statistics</a>
    
         
       </div>
