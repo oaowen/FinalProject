@@ -13,15 +13,8 @@ include('header.php');
     h1 {
   color: maroon;
   text-align: center;
-}
-div {
-  border: 1px solid black;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-  background-color: lightblue;
-}
+  }
+
 
 </style>
     
@@ -29,6 +22,6 @@ div {
   <body>
     <h1 style="background-color:LightGray;">Welcome to the library!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <div>The library was created so that all can find a book that suits them. The library should be a place of rest and where you can expand your mind <div>
+    <p>The library was created so that all can find a book that suits them. The library should be a place of rest and where you can expand your mind <p>
   </body>
 </html>
