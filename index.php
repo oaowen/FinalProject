@@ -22,6 +22,25 @@ include('header.php');
   <body>
     <h1 style="background-color:LightGray;">Welcome to the library!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <p>The library was created so that all can find a book that suits them. The library should be a place of rest and where you can expand your mind <p>
+    <div>
+<div class="card">
+<div class="card-header">
+ 
+
+<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">The Mission Statement</span>
+
+</div>
+
+<div class="card-body">
+<p>
+The Library
+
+</p>
+
+</div>
+
+</div>
+
+</div>
   </body>
 </html>
