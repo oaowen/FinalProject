@@ -45,6 +45,21 @@
         <a class="nav-link" href="author.php">Authors</a>
         <a class="nav-link" href="#">Publishers</a>
          <a class="nav-link" href="stat.html">Statistics</a>
+        <a class="nav-link" href="#">
+        <script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<body mat>
+<div id="root" class="navbar-nav ml-auto"></div>
+<script type="text/babel">
+function tick() {
+  const element = (<h1 class="fs-6">{new Date().toLocaleTimeString()}</h1>);
+  ReactDOM.render(element, document.getElementById('root'));
+}
+setInterval(tick, 1000);
+</script>
+   
+  </a> 
    
         
       </div>
@@ -55,7 +70,7 @@
   <div class="card">
   <div class="card-header">
  <header class="card-header">
- <h4>Monthly Users</h4>
+ <h5 style="color: #c7d04e">Monthly Users</h5>
  </header>
 </div>
     <div class="card-body">
@@ -86,7 +101,7 @@
           offsetY: -20,
           style: {
             fontSize: '20 px',
-            colors: ["#995253"]
+            colors: ["#c7d04e"]
           }
         },
         
