@@ -46,7 +46,7 @@ The Library
 <table style="margin: auto;">
   <tr>
     <td>
-      <div class="card" style="width: 200px; height: 300px;">
+      <div class="card" style="width: 200px; height: 400px;">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
