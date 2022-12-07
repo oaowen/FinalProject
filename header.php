@@ -30,7 +30,7 @@
 
 <script type="text/babel">
 function tick() {
-  const element = (<h1>{new Date().toLocaleTimeString()}</h1>);
+  const element = (<h1 class="fs-6">{new Date().toLocaleTimeString()}</h1>);
   ReactDOM.render(element, document.getElementById('root'));
 }
 
