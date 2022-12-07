@@ -52,12 +52,14 @@ The Library is a safe space for all. All readers are welcome to our library. Our
       </div>
     </td>
     <td>
-         <div class="card-header">
+      <div class="card">
+<div class="card-header">
  
 
-<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Featured</span>
+<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Featured Events</span>
 
 </div>
+         
   </div>
      <div class="card" style="width: 400px; height: 400px; margin: auto;">
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
