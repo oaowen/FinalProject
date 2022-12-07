@@ -33,7 +33,7 @@ include('header.php');
 
 <div class="card-body">
 <p>
-The Library
+The Library is a safe space for all. All readers are welcome to our library. Our goal is to pair you with a book that suits your needs. Books to expand your mind, take you to a far away place, or to make you feel at home live here. Please see a librarian to start your journey
 
 </p>
 
