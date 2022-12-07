@@ -17,7 +17,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="book.php">Books</a>
-        <a class="nav-link" href="#">Authors</a>
+        <a class="nav-link" href="author.php">Authors</a>
         <a class="nav-link" href="#">Publishers</a>
          <a class="nav-link" href="stat.html">Statistics</a>
    
