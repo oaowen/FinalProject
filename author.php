@@ -16,7 +16,7 @@ include('header.php');
 <div class="card-header">
  
 
-<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Author's</span>
+<h5 style="color: #c7d04e">Author's</h5>
 
 </div>
 
