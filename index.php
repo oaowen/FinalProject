@@ -21,7 +21,7 @@ include('header.php');
   </head>
   </br>
   <body>
-    <h1 style="background-color:LightGray; color:#c7d04e">Welcome to the library!</h1>
+    <h1 style="background-color:White; color:#c7d04e">Welcome to the library!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     
     
