@@ -15,7 +15,7 @@ include('header.php');
 <div class="card-header">
  
 
-<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">The Mission Statement</span>
+<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Author's</span>
 
 </div>
 
@@ -38,7 +38,7 @@ if ($conn->connect_error) {
 ?>
 
     
-      <h1>Authors</h1>
+     
       <table class="table table-striped" bgcolor="#FFFFFF">
         <thead>
           <tr>
