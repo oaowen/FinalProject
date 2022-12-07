@@ -50,7 +50,7 @@ The Library
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="height: 600px">
     <div class="carousel-item active">
       <img src="https://marketplace.canva.com/EAFEaEHdCUw/1/0/1131w/canva-blue-white-with-books-illustration-welcome-to-the-library-school-poster-OWKnNwm3qBc.jpg" class="d-block w-100"  alt="...">
     </div>
