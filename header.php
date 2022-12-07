@@ -24,8 +24,8 @@
 <script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
-<body>
-<div id="root"></div>
+<body mat>
+<div id="root" class="navbar-nav ml-auto"></div>
 
 <script type="text/babel">
 function tick() {
