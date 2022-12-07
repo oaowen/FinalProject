@@ -43,7 +43,7 @@ The Library
 
 </div>
     </br>
-<table style="width: 200px; height: 400px; margin: auto;">
+<table style="margin: auto;">
   <tr>
     <td>
       <div class="card" style="width: 200px; height: 400px;">
@@ -77,7 +77,7 @@ The Library
     </td>
     <td>
       <div class="card" style="width: 200px; height: 300px;">
-        <!-- Card 2 content goes here -->
+        <img src="https://digital.library.unt.edu/ark:/67531/metadc443/m1/1/high_res/" class="img-fluid" alt="...">
       </div>
     </td>
     <td>
