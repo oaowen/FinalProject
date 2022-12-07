@@ -73,13 +73,29 @@ $conn->close();
      </div>
      </div>
    </div>
-   <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address for book request</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+   </br> 
+   
+   <div class="card">
+<div class="card-header">
+ 
+
+<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Don't see a book you like? Request it!</span>
+
 </div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Book Description</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
+
+<div class="card-body">
+   <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Request</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
   </body>
 </html>
