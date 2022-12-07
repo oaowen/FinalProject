@@ -82,12 +82,7 @@ The Library
       </div>
     </td>
     <td>
-      <div class="card" style="width: 400px; height: 400px;">
-        <img src="https://digital.library.unt.edu/ark:/67531/metadc443/m1/1/high_res/" class="img-fluid" alt="...">
-      </div>
-    </td>
-    <td>
-      <div class="card" style="width: 400px; height: 400px; margin: auto;">
+     <div class="card" style="width: 400px; height: 400px; margin: auto;">
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -127,6 +122,12 @@ The Library
   </button>
 </div>
       </div>
+    </td>
+    <td>
+       <div class="card" style="width: 400px; height: 400px;">
+        <img src="https://digital.library.unt.edu/ark:/67531/metadc443/m1/1/high_res/" class="img-fluid" alt="...">
+      </div>
+      
     </td>
   </tr>
 </table>
