@@ -43,8 +43,11 @@ The Library
 
 </div>
     </br>
- <div class="card" style="width: 100%; height: 200px; margin: auto; text-align: center;">
-   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+<table>
+  <tr>
+    <td>
+      <div class="card" style="width: 200px; height: 300px;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -70,6 +73,31 @@ The Library
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+      </div>
+    </td>
+    <td>
+      <div class="card" style="width: 200px; height: 300px;">
+        <!-- Card 2 content goes here -->
+      </div>
+    </td>
+    <td>
+      <div class="card" style="width: 200px; height: 300px;">
+        <!-- Card 3 content goes here -->
+      </div>
+    </td>
+  </tr>
+</table>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+   
    </div.
     
     
