@@ -87,7 +87,7 @@ The Library
       </div>
     </td>
     <td>
-      <div class="card" style="width: 200px; height: 400px;">
+      <div class="card" style="object-fit: cover;">
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
