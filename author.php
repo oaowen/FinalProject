@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 
     
       <h1>Authors</h1>
-      <table bgcolor="#D3D3D3">
+      <table class="table table-striped">
         <thead>
           <tr>
             
