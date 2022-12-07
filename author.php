@@ -29,7 +29,7 @@ if ($conn->connect_error) {
 ?>
     
       <h1>Authors</h1>
-      <table class="table table-striped">
+      <table class="table table-striped-columns">
         <thead>
           <tr>
             
