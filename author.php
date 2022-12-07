@@ -42,7 +42,7 @@ if ($conn->connect_error) {
         <tbody>
           
 <?php
-$sql = "SELECT FName, LName, A.AID from Author A join Book B on A.AID= B.AID";
+$sql = "SELECT FName, LName, Name from Author A join Book B on A.AID= B.AID";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
           <tr>
             <td><?=$row["FName"]?></td>
             <td><?=$row["LName"]?></td>
-            <td><?=$row["A.AID"]?></td>
+            <td><?=$row["Name"]?></td>
             
             
           
