@@ -32,7 +32,7 @@ if ($conn->connect_error) {
       <table class="table table-success table-striped-columns">
         <thead>
           <tr>
-            <th>Author ID</th>
+            
             <th>First Name</th>
             <th>Last Name</th>
             <th>Books</th>
@@ -42,7 +42,7 @@ if ($conn->connect_error) {
         <tbody>
           
 <?php
-$sql = "SELECT * from Author";
+$sql = "SELECT A.FName, A.LName, B.Name from Author a join Book B on A.AID=B.AID";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -52,8 +52,9 @@ if ($result->num_rows > 0) {
           
           <tr>
             <td><?=$row["FName"]?></td>
-            <td><?=$row["FName"]?></td>
-            <td><a href="AuthorBook.php?id=<?=$row["AID"]?>"><?=$row["LName"]?></a></td>
+            <td><?=$row["LName"]?></td>
+            <td><?=$row["Name"]?></td>
+            
             
           
 <?php
