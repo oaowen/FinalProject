@@ -88,28 +88,40 @@ The Library
     </td>
     <td>
       <div class="card" style="width: 200px; height: 400px;">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner" >
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://marketplace.canva.com/EAFEaEHdCUw/1/0/1131w/canva-blue-white-with-books-illustration-welcome-to-the-library-school-poster-OWKnNwm3qBc.jpg" class="d-block w-100"  alt="...">
+      <img src="https://www.jamesgmartin.center/wp-content/uploads/2019/05/Fotolia_202562012_Subscription_Monthly_M-1200x800.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Featured Class</h5>
+        <p>Writing Classes.</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="https://www.loc.gov/preservation/resources/educational/bookmarks/BKBCposters/images/spinethumb.jpg" class="d-block w-100 h-50"  alt="...">
+      <img src="https://media.defense.gov/2008/Jun/04/2000611941/2000/2000/0/080529-F-1642J-012.JPG" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Featured Seminar</h5>
+        <p>Leadership in Chaos by Col. Owen</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="https://img.atlasobscura.com/rMAgytOPdjbglg93uJhSss1fLdcc8pIyfEL8_wBEJUI/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy81ZWFkOGIwNDNh/MDAxYWZlN2ZfM2Yw/NTIyOXYuanBn.jpg" class="d-block w-100"  alt="...">
+      <img src="https://d3q79wa8h7wjl9.cloudfront.net/wp-content/uploads/2017/12/Holidaydrives.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Featured Event</h5>
+        <p>Food Pantry Donation Drive</p>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
