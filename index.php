@@ -40,7 +40,7 @@ include('header.php');
 <div class="card-header">
  
 
-  <h5 style="color: pink">Mission Statement</h5>
+  <h5 style="color: #c7d04e">Mission Statement</h5>
 
 </div>
 
