@@ -42,7 +42,7 @@ if ($conn->connect_error) {
         <tbody>
           
 <?php
-$sql = "SELECT FName, LName, Name from Author a join Book B on A.AID = B.AID";
+$sql = "SELECT * from Author";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
