@@ -43,7 +43,7 @@ The Library
 
 </div>
     </br>
-<table>
+<table style="margin: auto;">
   <tr>
     <td>
       <div class="card" style="width: 200px; height: 300px;">
