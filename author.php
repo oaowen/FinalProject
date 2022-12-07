@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 
     
       <h1>Authors</h1>
-      <table class="table table-bordered border-primary">
+      <table class="table-secondary table-bordered border-dark">
         <thead>
           <tr>
             
