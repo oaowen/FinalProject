@@ -40,7 +40,7 @@ include('header.php');
 <div class="card-header">
  
 
-  <h5> Featured Events </h5>
+  <h5 style="color: pink">Mission Statement</h5>
 
 </div>
 
