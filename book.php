@@ -11,7 +11,7 @@ include('header.php');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
  <body>
  </br>
- </br>
+ 
    <div class="card">
 <div class="card-header">
  
@@ -91,9 +91,9 @@ $conn->close();
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Request</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
+  <label for="exampleFormControlTextarea1" class="form-label">Book request (please include author)</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
