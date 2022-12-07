@@ -16,7 +16,7 @@ include('header.php');
 <div class="card-header">
  
 
-<h5 style="color: #c7d04e">Author's</h5>
+<h5 style="color: #c7d04e">Authors</h5>
 
 </div>
 
