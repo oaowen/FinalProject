@@ -58,6 +58,7 @@ The Library is a safe space for all. All readers are welcome to our library. Our
 <span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Featured</span>
 
 </div>
+  </div>
      <div class="card" style="width: 400px; height: 400px; margin: auto;">
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
