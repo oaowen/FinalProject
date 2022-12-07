@@ -10,6 +10,8 @@ include('header.php');
     <title>Books</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
  <body>
+ </br>
+ </br>
    <div class="card">
 <div class="card-header">
  
@@ -63,8 +65,7 @@ $conn->close();
 ?>
   </tbody>
     </table>
-    <h1>Welcome to Owen Library</h1>
-   <h2>See our Books!</h2>
+    
     
     
   
