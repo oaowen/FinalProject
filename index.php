@@ -47,41 +47,17 @@ The Library
   <tr>
     <td>
       <div class="card" style="width: 400px; height: 400px;">
-        <div class="card-header">
+     
+       <img src="https://risarodil.com/wp-content/uploads/2018/07/library_tumblr.jpg" class="img-fluid" alt="...">
+      </div>
+    </td>
+    <td>
+         <div class="card-header">
  
 
 <span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Featured</span>
 
 </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner" >
-    <div class="carousel-item active">
-      <img src="https://marketplace.canva.com/EAFEaEHdCUw/1/0/1131w/canva-blue-white-with-books-illustration-welcome-to-the-library-school-poster-OWKnNwm3qBc.jpg" class="d-block w-100"  alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.loc.gov/preservation/resources/educational/bookmarks/BKBCposters/images/spinethumb.jpg" class="d-block w-100 h-50"  alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://img.atlasobscura.com/rMAgytOPdjbglg93uJhSss1fLdcc8pIyfEL8_wBEJUI/rs:fill:12000:12000/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy81ZWFkOGIwNDNh/MDAxYWZlN2ZfM2Yw/NTIyOXYuanBn.jpg" class="d-block w-100"  alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-      </div>
-    </td>
-    <td>
      <div class="card" style="width: 400px; height: 400px; margin: auto;">
          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
@@ -91,7 +67,7 @@ The Library
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.jamesgmartin.center/wp-content/uploads/2019/05/Fotolia_202562012_Subscription_Monthly_M-1200x800.jpg" class="d-block w-100" alt="...">
+      <img src="https://dabbledoneright-production.s3.amazonaws.com/production/uploads/course/photo/106081/carousel_writing-300x284.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Featured Class</h5>
         <p>Writing Classes.</p>
