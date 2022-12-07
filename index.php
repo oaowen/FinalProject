@@ -40,7 +40,7 @@ include('header.php');
 <div class="card-header">
  
 
-<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">The Mission Statement</span>
+  <h5> Featured Events </h5>
 
 </div>
 
