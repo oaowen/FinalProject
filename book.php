@@ -79,9 +79,9 @@ $conn->close();
 <div class="card-header">
  
 
-<span onmouseover="style.color='blue'" onmouseout="style.color='pink'" style="color: pink">Don't see a book you like? Request it!</span>
+<h5 style="color: #c7d04e">Don't see a book you like? Request it!</h5>
 
-</div>
+     </div>
 
 <div class="card-body">
    <form>
