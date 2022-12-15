@@ -82,21 +82,54 @@ $conn->close();
 <h5 style="color: #c7d04e">Don't see a book you like? Request it!</h5>
 
      </div>
+     <?php
+// Check if the form was submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Get the form data
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+
+  // Connect to the database
+  $servername = "localhost";
+  $username = "oaowenou_finalproject";
+  $password = "TAnner01!!";
+  $dbname = "oaowenou_finalproject";
+
+  $conn = new mysqli($servername, $username, $password, $dbname);
+
+  // Check if the connection was successful
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
+  // Insert the request into the Request table
+  $sql = "INSERT INTO Request (BRName, BREmail) VALUES (?, ?)";
+  $stmt = $conn->prepare($sql);
+  $stmt->bind_param("ss", $name, $email);
+  $stmt->execute();
+
+  // Close the database connection
+  $conn->close();
+
+  // Print a success message
+  echo '<div class="alert alert-success" role="alert">New Request Added.</div>';
+}
+?>
+
 
 <div class="card-body">
-   <form>
- 
+   <form action="BookRequest.php" method="post">
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Book Name Requested</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
- <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="name">Book Name Requested</label>
+    <textarea class="form-control" id="name" name="name" rows="3"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
   </div>
-
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Submit Request</button>
 </form>
+</div>
   </body>
 </html>
