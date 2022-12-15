@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo '<div class="alert alert-success" role="alert">New Request Added.</div>';
       break;
     case 'Edit':
-      $sqlEdit = "update Request set BRName=?, BREmail = ? where BRID=?";
+      $sqlEdit = "update Request set BRName=?, BREmail = ?, where BRID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
       $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
       $stmtEdit->execute();
