@@ -25,6 +25,10 @@ include('header.php');
      
     
     <?php
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Get the form data
+  $name = $_POST["bookName"];
+  $email = $_POST["email"];
 $servername = "localhost";
 $username = "oaowenou_finalproject";
 $password = "TAnner01!!";
@@ -36,6 +40,11 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
+        $sql = "INSERT INTO Request (BRName, BREmail) VALUES (?, ?)";
+  $stmt = $conn->prepare($sql);
+  $stmt->bind_param("ss", $name, $email);
+  $stmt->execute();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
