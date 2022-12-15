@@ -21,7 +21,16 @@ include('header.php');
 </div>
 
 <div class="card-body">
-    <div class="container">
+    <div class="table table-striped">
+     <thead>
+          <tr>
+            <th>Request ID</th>
+            <th>Request Info</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
     
     <?php
 $servername = "localhost";
@@ -63,17 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
     
-      
-      <table class="table table-striped bgcolor="#FFFFFF">
-        <thead>
-          <tr>
-            <th>Request ID</th>
-            <th>Request Info</th>
-            <th>Edit</th>
-            <th>Delete</th>
-          </tr>
-        </thead>
-        <tbody>
+       
           
 <?php
 $sql = "SELECT BRID, BName, BREmail from Request";
