@@ -89,6 +89,7 @@ The Library is a safe space for all. All readers are welcome to our library. Our
       <div class="carousel-caption d-none d-md-block">
         <h5>Featured Class</h5>
         <p>Writing Classes.</p>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
       </div>
     </div>
     <div class="carousel-item">
