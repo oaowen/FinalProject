@@ -76,16 +76,9 @@ $conn->close();
 
 
 </div>
-<div class="card">
-<div class="card-header">
- 
-
-  <h5 style="color: #c7d04e">M</h5>
-
-</div>
 
 <div class="d-grid gap-2">
-  <a class="btn btn-primary" href="BookRequest.php" role="button">Link</a>
+  <a class="btn btn-primary" href="BookRequest.php" role="button" style="color: #c7d04e">Link</a>
 </div>
     </br>
   </body>
