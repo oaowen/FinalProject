@@ -153,8 +153,12 @@ $conn->close();
     </div>
     </div>
     </div>
+    </br>
     <div class="card">
 <div class="card-header">
+<h5 style="color: #c7d04e">New Requests</h5>
+
+</div>
     <div class="card-body">
    <form action="BookRequest.php" method="POST">
   <div class="mb-3">
