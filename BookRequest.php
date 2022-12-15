@@ -16,7 +16,7 @@ include('header.php');
 <div class="card-header">
  
 
-  <h3 style="color: #c7d04e">Welcome to the Request Pafe</h3>
+  <h3 style="color: #c7d04e">Welcome to the Request Page!</h3>
 
 </div>
 
