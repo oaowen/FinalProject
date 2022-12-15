@@ -25,21 +25,21 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
-      $sqlAdd = "insert into Book Request (BRName, BREmail) value (?, ?)";
+      $sqlAdd = "insert into Request (BRName, BREmail) value (?, ?)";
       $stmtAdd = $conn->prepare($sqlAdd);
       $stmtAdd->bind_param("ss", $_POST['iName'], $_POST['iEmail']);
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New Request Added.</div>';
       break;
     case 'Edit':
-      $sqlEdit = "update Book Request set BRName=?, BREmail = ? where BRID=?";
+      $sqlEdit = "update Request set BRName=?, BREmail = ? where BRID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
       $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
       $stmtEdit->execute();
       echo '<div class="alert alert-success" role="alert">Request edited.</div>';
       break;
     case 'Delete':
-      $sqlDelete = "delete from Book Request where BRID=?";
+      $sqlDelete = "delete from Request where BRID=?";
       $stmtDelete = $conn->prepare($sqlDelete);
       $stmtDelete->bind_param("i", $_POST['iid']);
       $stmtDelete->execute();
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <tbody>
           
 <?php
-$sql = "SELECT BRID, BRName, BREmail from Book Request";
+$sql = "SELECT BRID, BRName, BREmail from Request";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
