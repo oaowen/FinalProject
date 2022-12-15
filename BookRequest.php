@@ -74,7 +74,7 @@ if ($result->num_rows > 0) {
             <td><?=$row["BRID"]?></td>
             <td><a href="BRSection.php?id=<?=$row["BRID"]?>"><?=$row["BRName"]?><?=$row["BREmail"]?></a></td>
             <td>
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editRequest<?=$row["DID"]?>">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editRequest<?=$row["BRID"]?>">
                 Edit
               </button>
               <div class="modal fade" id="editRequest<?=$row["BRID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editRequest<?=$row["BRID"]?>Label" aria-hidden="true">
