@@ -162,14 +162,16 @@ $conn->close();
     <div class="card-body">
    <form action="BookRequest.php" method="POST">
   <div class="mb-3">
-    <label for="bookName">Book Name Requested</label>
-    <textarea class="form-control" id="bookName" aria-describedby="nameHelp" name="iName" rows="3"></textarea>
+    <label for="bookName" class="form-label">Book Name Requested</label>
+    <input type="name" class="form-control" id="name" aria-describedby="emailHelp" name="iName">
+     <div id="nameHelp" class="form-text">Enter the Book's name.</div>
   </div>
   <div class="mb-3">
-    <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" name="iEmail" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
   </div>
+  <input type="hidden" name="saveType" value="Add">
   <button type="submit" class="btn btn-primary">Submit request</button>
 </form>
 
