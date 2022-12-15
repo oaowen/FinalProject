@@ -86,8 +86,8 @@ $conn->close();
 // Check if the form was submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Get the form data
-  $name = $_POST["name"];
-  $email = $_POST["email"];
+  $name = $_POST["iName"];
+  $email = $_POST["iEmail"];
 
   // Connect to the database
   $servername = "localhost";
@@ -118,18 +118,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 <div class="card-body">
-   <form action="BookRequest.php" method="post">
+   <form action="BookRequest.php" method="POST">
   <div class="mb-3">
-    <label for="name">Book Name Requested</label>
-    <textarea class="form-control" id="name" name="name" rows="3"></textarea>
+    <label for="bookName">Book Name Requested</label>
+    <textarea class="form-control" id="bookName" name="bookName" rows="3"></textarea>
   </div>
   <div class="mb-3">
     <label for="email">Email address</label>
     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
   </div>
-  <button type="submit" class="btn btn-primary">Submit Request</button>
+  <button type="submit" class="btn btn-primary">Submit request</button>
 </form>
+
 </div>
   </body>
 </html>
