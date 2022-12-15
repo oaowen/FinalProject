@@ -59,7 +59,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $stmtEdit = $conn->prepare($sqlEdit);
   $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
   $stmtEdit->execute();
-  echo '<div class="alert alert-success" role="alert">Request edited.</div>';
+  echo '<div class="alert alert-success" role="alert
+
+ 
+ echo '<div class="alert alert-success" role="alert">Request edited.</div>';
   break;
 
     case 'Delete':
