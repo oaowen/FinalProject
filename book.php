@@ -91,7 +91,7 @@ $conn->close();
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
   </div>
   <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Book request (please include author)</label>
+  <label for="exampleFormControlTextarea1" class="form-label">Book Name Requested</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
 
