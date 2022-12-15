@@ -78,7 +78,7 @@ $conn->close();
 </div>
 </br>
 <div class="d-grid gap-2">
-  <a class="btn btn-outline-success" href="BookRequest.php" role="button" >Link</a>
+  <a class="btn btn-success" href="BookRequest.php" role="button" >Not seeing anything good? Click here to go to our book request page!</a>
 </div>
     </br>
   </body>
