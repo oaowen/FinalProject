@@ -11,6 +11,17 @@ include('header.php');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     </head>
     <body>
+      </br>
+  <div class="card">
+<div class="card-header">
+ 
+
+<h5 style="color: #c7d04e">Requests</h5>
+
+</div>
+
+<div class="card-body">
+    <div class="container">
     
     <?php
 $servername = "localhost";
@@ -52,12 +63,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
     
-      <h1>Requests</h1>
-      <table class="table table-success table-striped-columns">
+      
+      <table class="table table-striped bgcolor="#FFFFFF">
         <thead>
           <tr>
-            <th>BRID</th>
-            <th>BName</th>
+            <th>Request ID</th>
+            <th>Request Info</th>
             <th>Edit</th>
             <th>Delete</th>
           </tr>
@@ -137,5 +148,8 @@ $conn->close();
 
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </div>
+    </div>
+    
   </body>
 </html>
