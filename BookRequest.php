@@ -73,6 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       break;
   }
 }
+}
 ?>
 <table class="table table-striped" bgcolor="#FFFFFF">
     <thead>
