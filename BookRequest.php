@@ -25,7 +25,9 @@ include('header.php');
      
     
     <?php
-    
+ if (array_key_exists('saveType', $_POST)) {
+  $saveType = $_POST['saveType'];
+  
 $servername = "localhost";
 $username = "oaowenou_finalproject";
 $password = "TAnner01!!";
@@ -37,7 +39,14 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-  
+  $errors = [];
+  if (empty($_POST['iName'])) {
+    $errors[] = "Name is required";
+  }
+  if (empty($_POST['iEmail'])) {
+    $errors[] = "Email is required";
+  }
+  if (empty($errors)) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
