@@ -68,9 +68,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $sql = "SELECT BRID, BRName, BREmail from Request";
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+if (!$result) {
+  // The query failed. Print an error message.
+  echo "Error: " . $conn->error;
+} else if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
+
 ?>
           
           <tr>
