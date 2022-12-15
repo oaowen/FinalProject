@@ -163,7 +163,7 @@ $conn->close();
    <form action="BookRequest.php" method="POST">
   <div class="mb-3">
     <label for="bookName" class="form-label">Book Name Requested</label>
-    <input type="name" class="form-control" id="name" aria-describedby="emailHelp" name="iName">
+    <input type="name" class="form-control" id="name" aria-describedby="BookHelp" name="iName" rows="3">
      <div id="nameHelp" class="form-text">Enter the Book's name.</div>
   </div>
   <div class="mb-3">
