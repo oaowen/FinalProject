@@ -85,7 +85,7 @@ $conn->close();
 </div>
 
 <div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button" href="BookRequest.php">Don't see a book you like? Click here to go to our request page!</button>
+  <a class="btn btn-primary" href="BookRequest.php" role="button">Link</a>
 </div>
     </br>
   </body>
