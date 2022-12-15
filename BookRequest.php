@@ -16,6 +16,26 @@ include('header.php');
 <div class="card-header">
  
 
+  <h3 style="color: #c7d04e">Welcome to the Request Pafe</h3>
+
+</div>
+
+<div class="card-body">
+<p>
+As a growing library, our goal is to have our collection meet your literary needs. We understand that we do not have every book you may want yet so please help us grow our stock. Below you can see requests that are currently being analyzed. You may edit or delete them because we believe in majority rules. Don't see something you like? Add a request and our librarians will take a look!
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+    </br>
+  <div class="card">
+<div class="card-header">
+ 
+
 <h5 style="color: #c7d04e">Requests</h5>
 
 </div>
