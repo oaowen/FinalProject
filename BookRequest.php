@@ -52,14 +52,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
     
-      <h1>Dogs</h1>
+      <h1>Requests</h1>
       <table class="table table-success table-striped-columns">
         <thead>
           <tr>
             <th>BRID</th>
             <th>BName</th>
-            <th>BREmail</th>
-            <th></th>
+            <th>Edit</th>
+            <th>Delete</th>
           </tr>
         </thead>
         <tbody>
@@ -79,7 +79,7 @@ if (!$result) {
           
           <tr>
             <td><?=$row["BRID"]?></td>
-            <td><a href="BRSection.php?id=<?=$row["BRID"]?>"><?=$row["BName"]?><?=$row["BREmail"]?></a></td>
+            <td><a href="BRSection.php?id=<?=$row["BRID"]?>"><?=$row["BName"]?></br><?=$row["BREmail"]?></a></td>
             <td>
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editRequest<?=$row["BRID"]?>">
                 Edit
