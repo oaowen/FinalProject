@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     case 'Edit':
       $sqlEdit = "update Book Request set BRName=?, BREmail = ? where BRID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("sSi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
+      $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
       $stmtEdit->execute();
       echo '<div class="alert alert-success" role="alert">Request edited.</div>';
       break;
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <tbody>
           
 <?php
-$sql = "SELECT * from Book Request";
+$sql = "SELECT BRID, BRName, BREmail from Book Request";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
