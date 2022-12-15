@@ -157,7 +157,21 @@ $conn->close();
       </table>
       <br />
       
+<div class="card-body">
+   <form action="BookRequest.php" method="POST">
+  <div class="mb-3">
+    <label for="bookName">Book Name Requested</label>
+    <textarea class="form-control" id="bookName" name="bookName" rows="3"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will notify you if we get your book!</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit request</button>
+</form>
 
+</div>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </div>
