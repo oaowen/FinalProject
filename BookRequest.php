@@ -27,14 +27,14 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
-      $sqlAdd = "insert into Request (BRName, BREmail) values (?, ?)";
+      $sqlAdd = "insert into Request (BName, BREmail) values (?, ?)";
       $stmtAdd = $conn->prepare($sqlAdd);
       $stmtAdd->bind_param("ss", $_POST['iName'], $_POST['iEmail']);
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New Request Added.</div>';
       break;
     case 'Edit':
-  $sqlEdit = "update Request set BRName=?, BREmail=? where BRID=?";
+  $sqlEdit = "update Request set BName=?, BREmail=? where BRID=?";
   $stmtEdit = $conn->prepare($sqlEdit);
   $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
   $stmtEdit->execute();
@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <thead>
           <tr>
             <th>BRID</th>
-            <th>BRName</th>
+            <th>BName</th>
             <th>BREmail</th>
             <th></th>
           </tr>
@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <tbody>
           
 <?php
-$sql = "SELECT BRID, BRName, BREmail from Request";
+$sql = "SELECT BRID, BName, BREmail from Request";
 $result = $conn->query($sql);
 
 if (!$result) {
@@ -79,7 +79,7 @@ if (!$result) {
           
           <tr>
             <td><?=$row["BRID"]?></td>
-            <td><a href="BRSection.php?id=<?=$row["BRID"]?>"><?=$row["BRName"]?><?=$row["BREmail"]?></a></td>
+            <td><a href="BRSection.php?id=<?=$row["BRID"]?>"><?=$row["BName"]?><?=$row["BREmail"]?></a></td>
             <td>
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editRequest<?=$row["BRID"]?>">
                 Edit
@@ -95,7 +95,7 @@ if (!$result) {
                       <form method="post" action="">
                         <div class="mb-3">
                           <label for="editRequest<?=$row["BRID"]?>Name" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="editRequest<?=$row["BRID"]?>Name" aria-describedby="editRequest<?=$row["BRID"]?>Help" name="iName" value="<?=$row["BRName"]?>">
+                          <input type="text" class="form-control" id="editRequest<?=$row["BRID"]?>Name" aria-describedby="editRequest<?=$row["BRID"]?>Help" name="iName" value="<?=$row["BName"]?>">
                           <div id="editRequest<?=$row["BRID"]?>Help" class="form-text">Enter the Book's name.</div>
                         </div>
                         <div class="mb-3">
