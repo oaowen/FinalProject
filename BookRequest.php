@@ -27,19 +27,20 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
-      $sqlAdd = "insert into Request (BRName, BREmail) value (?, ?)";
+      $sqlAdd = "insert into Request (BRName, BREmail) values (?, ?)";
       $stmtAdd = $conn->prepare($sqlAdd);
       $stmtAdd->bind_param("ss", $_POST['iName'], $_POST['iEmail']);
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New Request Added.</div>';
       break;
     case 'Edit':
-      $sqlEdit = "update Request set BRName=?, BREmail=? where BRID=?";
-      $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
-      $stmtEdit->execute();
-      echo '<div class="alert alert-success" role="alert">Request edited.</div>';
-      break;
+  $sqlEdit = "update Request set BRName=?, BREmail=? where BRID=?";
+  $stmtEdit = $conn->prepare($sqlEdit);
+  $stmtEdit->bind_param("ssi", $_POST['iName'], $_POST['iEmail'], $_POST['iid']);
+  $stmtEdit->execute();
+  echo '<div class="alert alert-success" role="alert">Request edited.</div>';
+  break;
+
     case 'Delete':
       $sqlDelete = "delete from Request where BRID=?";
       $stmtDelete = $conn->prepare($sqlDelete);
