@@ -21,16 +21,8 @@ include('header.php');
 </div>
 
 <div class="card-body">
-    <div class="table table-striped">
-     <thead>
-          <tr>
-            <th>Request ID</th>
-            <th>Request Info</th>
-            <th>Edit</th>
-            <th>Delete</th>
-          </tr>
-        </thead>
-        <tbody>
+    <div class="container">
+     
     
     <?php
 $servername = "localhost";
@@ -71,7 +63,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 ?>
-    
+    <thead>
+          <tr>
+            <th>Request ID</th>
+            <th>Request Info</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
        
           
 <?php
