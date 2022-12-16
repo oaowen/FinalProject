@@ -42,3 +42,17 @@ include('header.php');
     </div>
   </div>
 </div>
+<div class="card mb-3" style="max-width: 1050px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://d3q79wa8h7wjl9.cloudfront.net/wp-content/uploads/2017/12/Holidaydrives.png" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Food Pantry Donation Drive</h5>
+        <p class="card-text">The best way to spread holiday cheer is to share! This year we want to make sure everyone in our community has some warmth, light, and a full belly for the holidays. Please donate non-perishable items in boxes up front and please give all gift cards to the librarians so that they may be passed along. We will be collecting donations throughout the season with drop offs on 12/23 and 12/31. No one deserves to be hungry for the holidays. The top donor will recieve a signed copy of Harry Potter and a gift card to a steakhouse. Please help us share love and warmth this holiday.</p>
+        <p class="card-text"><small class="text-muted">Please see librarians for more details</small></p>
+      </div>
+    </div>
+  </div>
+</div>
