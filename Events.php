@@ -42,10 +42,11 @@ include('header.php');
     </div>
   </div>
 </div>
+</br>
 <div class="card mb-3" style="max-width: 1050px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="https://d3q79wa8h7wjl9.cloudfront.net/wp-content/uploads/2017/12/Holidaydrives.png" alt="...">
+      <img src="http://chcsguidance.weebly.com/uploads/1/8/4/8/18484742/header_images/1448899636.jpg" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
