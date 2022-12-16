@@ -13,7 +13,7 @@ include('header.php');
     <body>
       </br>
   
-   <div class="card mb-3" style="max-width: 850px;">
+   <div class="card mb-3" style="max-width: 1050px;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://dabbledoneright-production.s3.amazonaws.com/production/uploads/course/photo/106081/carousel_writing-300x284.png" class="img-fluid rounded-start" alt="...">
@@ -28,7 +28,7 @@ include('header.php');
   </div>
 </div>
   </br> 
-  <div class="card mb-3" style="max-width: 850px;">
+  <div class="card mb-3" style="max-width: 1050px;">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://media.defense.gov/2008/Jun/04/2000611941/2000/2000/0/080529-F-1642J-012.JPG" class="img-fluid rounded-start" alt="...">
