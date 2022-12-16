@@ -20,7 +20,7 @@
         <a class="nav-link" href="author.php">Authors</a>
         <a class="nav-link" href="BookRequest.php">Book Requests</a>
          <a class="nav-link" href="stat.html">Statistics</a>
-       <a class="nav-link" href="#">
+        <a class="nav-link" href="Events.php">Events</a>
         <script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
